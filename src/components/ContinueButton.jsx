@@ -15,7 +15,7 @@ const ContinueButton = ({ isContinue = false, callBack }) => {
     <button
       className={`bg-black ${
         isActive ? "bg-gray-700" : "hover:bg-gray-900"
-      } text-white py-2  px-8 rounded focus:outline-none`}
+      } text-darkText py-2  px-8 rounded focus:outline-none`}
       onClick={handleClick}
     >
       Continue
