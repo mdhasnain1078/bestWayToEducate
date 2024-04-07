@@ -12,12 +12,12 @@ const IntroDescriptive = ({
 }) => {
   // greetingCartoon.png;
   return (
-    <div className="sm:grid grid-cols-2" {...props}>
-      <div className=" col-span-1 flex flex-col justify-center items-center">
+    <div className="sm:grid grid-cols-2 dark:bg-darkBackground" {...props}>
+      <div className="flex flex-col justify-center items-center">
         <img src={imgPath} alt="" />
       </div>
-      <div className=" col-span-1 flex flex-col justify-center items-center text-center sm:text-start sm:items-start sm:my-0 my-2 dark:text-darkText">
-        <h1 className="text-xl sm:text-3xl  font-bold mb-3">{title}</h1>
+      <div className="h-full flex flex-col justify-center items-center text-center sm:text-start sm:items-start dark:text-darkText dark:bg-darkBackground">
+        <h1 className="text-xl sm:text-3xl font-bold mb-3">{title}</h1>
         {startVisible ? (
           <RatingStar totalStars={5} className={"my-4 gap-2"} />
         ) : null}

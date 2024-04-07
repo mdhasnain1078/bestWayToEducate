@@ -8,7 +8,7 @@ const IntroPageOne = () => {
     updateIsPageTrue();
   }, []);
   return (
-    <div className="mt-10 sm:mx-4 md:mx-10 lg:mx-20 xl:mx-32">
+    <div className="pt-10 sm:px-4 md:px-10 lg:px-20 xl:px-32">
       <IntroDescriptive
         startVisible={false}
         imgPath={"./assets/image/machine.png"}

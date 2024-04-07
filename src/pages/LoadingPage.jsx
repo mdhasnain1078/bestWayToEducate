@@ -18,10 +18,13 @@ const LoadingPage = () => {
       return () => clearInterval(interval);
     }
     navigate("/FinalPage");
+    i = 0;
+    console.log(i);
+    console.log(value);
   }, [value]);
 
   return (
-    <div className="flex flex-col justify-center items-center h-screen mx-3 dark:bg-darkBackground">
+    <div className="flex flex-col justify-center items-center h-full px-3 dark:bg-darkBackground">
       <CircularProgress percentage={value} />
       <h1 className="text-base sm:text-lg lg:text-xl font-bold mt-2 text-center dark:text-darkText">
         Finding learning path recommendations for you based on your responses

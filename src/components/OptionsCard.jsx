@@ -32,7 +32,7 @@ const OptionCard = ({
         className={`${imageClass} dark:bg-darkBackground`}
       />
       <div
-        className={`${isHorizontalContant ? "text-center" : "ml-3 text-left"}`}
+        className={`${isHorizontalContant ? "text-center" : "pl-3 text-left"}`}
       >
         <p className=" font-semibold inline dark:text-darkText">{title}</p>
         <p

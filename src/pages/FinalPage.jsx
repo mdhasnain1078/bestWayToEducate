@@ -11,7 +11,7 @@ const FinalPage = () => {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center md:h-screen dark:bg-darkBackground h-full">
+    <div className="flex flex-col justify-center items-center md:h-screen dark:bg-darkBackground">
       <HeadTile
         title={"Learning paths based on your answers"}
         subTitle={"Choose one to get started. You can switch anytime"}

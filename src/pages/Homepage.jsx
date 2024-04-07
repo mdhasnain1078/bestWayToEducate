@@ -59,17 +59,17 @@ const Homepage = () => {
 
   return (
     <IsPageProvider value={{ updateIsPageFalse, updateIsPageTrue }}>
-      <div className="dark:darkBackground h-full">
+      <div className="dark:bg-darkBackground h-full">
         {/* Loader */}
         <div className="flex justify-center items-center mx-5 sm:mx-32 my-4 gap-2 dark:text-darkText">
           {progress > 10 && <BackButton callBack={decreaseProgress} />}
           <LoaderLine progress={progress} />
         </div>
         {/* Pages */}
-        <div className="flex justify-center">{page}</div>
+        <div className="flex justify-center dark:bg-darkBackground">{page}</div>
 
         {/* Continue Button */}
-        <div className="flex justify-center items-center my-5">
+        <div className="flex justify-center items-center py-5 dark:bg-darkBackground">
           <ContinueButton isContinue={isPage} callBack={increaseProgress} />
         </div>
       </div>

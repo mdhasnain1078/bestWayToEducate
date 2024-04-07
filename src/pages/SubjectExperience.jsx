@@ -54,7 +54,7 @@ const SubjectExperience = () => {
         <OptionContainer
           imageClass={"h-12 w-24 mb-4"}
           options={options}
-          className={"grid sm:grid-cols-2 lg:grid-cols-4 gap-6"}
+          className={"grid sm:grid-cols-2 lg:grid-cols-4 gap-6 "}
           isHorizontalContant={true}
         />
       </div>
