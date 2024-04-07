@@ -4,7 +4,7 @@ import OptionContainer from "../components/OptionContainer";
 import { useIsPage } from "../context";
 
 const ProfInfo = () => {
-  const path = "src/assets/image";
+  const path = "./assets/image";
   const options = [
     {
       id: 1,

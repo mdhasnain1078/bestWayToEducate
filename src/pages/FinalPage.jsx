@@ -11,7 +11,7 @@ const FinalPage = () => {
       />
       <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mx-2">
         <FinalCard
-          imageUrl={"src/assets/image/unlockPath.png"}
+          imageUrl={"./assets/image/unlockPath.png"}
           title={"Foundational Math"}
           description={
             "Build your foundational skills in algebra, geometry, and probability."
@@ -19,7 +19,7 @@ const FinalPage = () => {
           isPopular={true}
         />
         <FinalCard
-          imageUrl={"src/assets/image/unlockPath.png"}
+          imageUrl={"./assets/image/unlockPath.png"}
           title={"Mathematical Thinking"}
           description={
             "Build your foundational skills in algebra, geometry, and probability."

@@ -4,32 +4,32 @@ import OptionContainer from "../components/OptionContainer";
 import { useIsPage } from "../context";
 
 const SubjectExperience = () => {
-  const path = "src/assets/";
+  const path = "./assets/icons";
   const options = [
     {
       id: 1,
-      imageSrc: `${path}/icons/arithmatic.svg`,
+      imageSrc: `${path}/arithmatic.svg`,
       title: "Arithmetic",
       isClicked: false,
       descriptiveText: "Introductory",
     },
     {
       id: 2,
-      imageSrc: `${path}/icons/arithmatic.svg`,
+      imageSrc: `${path}/arithmatic.svg`,
       title: "Basic Algebra",
       isClicked: false,
       descriptiveText: "Foundational",
     },
     {
       id: 3,
-      imageSrc: `${path}/icons/intermadiat.svg`,
+      imageSrc: `${path}/intermadiat.svg`,
       title: "Intermediate Algebra",
       isClicked: false,
       descriptiveText: "Intermediate",
     },
     {
       id: 4,
-      imageSrc: `${path}/icons/calculus.svg`,
+      imageSrc: `${path}/calculus.svg`,
       title: "Calculus",
       isClicked: false,
       descriptiveText: "Advanced",

@@ -13,7 +13,7 @@ const IntroPageTwo = () => {
   return (
     <div className="mt-16 sm:mx-4 md:mx-10 lg:mx-20 xl:mx-32">
       <IntroDescriptive
-        imgPath={"src/assets/image/greetingCartoon.png"}
+        imgPath={"./assets/image/greetingCartoon.png"}
         startVisible={true}
         classNameForDescription={"italic"}
         authorname={"- Jacob S."}
