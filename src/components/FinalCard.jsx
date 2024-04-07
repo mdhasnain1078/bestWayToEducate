@@ -1,8 +1,17 @@
 import React from "react";
 
-const FinalCard = ({ imageUrl, title, description, isPopular }) => {
+const FinalCard = ({
+  imageUrl,
+  title,
+  description,
+  isPopular,
+  clickHandler,
+}) => {
   return (
-    <div className="w-full lg:w-[350px] h-auto sm:h-[30%]">
+    <div
+      className="w-full lg:w-[350px] h-auto sm:h-[30%]"
+      onClick={clickHandler}
+    >
       {isPopular ? (
         <div className="bg-lightCircularIndicator text-[10px] font-bold px-2 py-1 rounded-2xl justify-center relative left-[50%] transform -translate-x-1/2 top-3 inline-block min-w-max dark:text-darkText">
           MOST POPULAR
